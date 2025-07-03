@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+header ul li{
+    @apply px-5;
+}
+
+.bg-primary{
+   background: rgb(85, 81, 227)
+}
+.bg-secondary{
+    background: #15163f
+}
+.mobile-nav{
+    @apply fixed top-10 left-0 w-full h-1/4  bg-gray-800
+}
+.mobile-nav  li{
+    @apply w-full h-full text-center border-b-2;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    font-family: "Roboto Mono", monospace;
+}
+
+::-webkit-scrollbar{
+    display:none
+}
