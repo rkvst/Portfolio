@@ -3,7 +3,7 @@ import resumeimg from '../src/assets/resume.jpg'
 import Projects from './Projects'
 function Resume() {
     const config = {
-        link:"https://www.slideshare.net/slideshow/simple-resume-format/94958066"
+        link:"https://in.docworkspace.com/d/sIPqugPBn7_eawwY?sa=601.1074"
     }
   return (
     <div>
